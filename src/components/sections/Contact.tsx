@@ -12,6 +12,7 @@ export const Contact = () =>{
 
 
 
+    // @ts-ignore
     const handleSubmit = (e) => {
         e.preventDefault();
 

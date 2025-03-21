@@ -1,5 +1,6 @@
 import {useEffect, useState} from "react";
 
+// @ts-ignore
 export const LoadingScreen = ({onComplete}) => {
 
     const [text, setText] = useState("");

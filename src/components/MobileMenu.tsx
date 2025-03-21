@@ -1,3 +1,4 @@
+// @ts-ignore
 export const MobileMenu = ({menuOpen, setMenuOpen}) => {
 
     return (

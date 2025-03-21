@@ -1,5 +1,6 @@
 import {useEffect, useRef} from "react";
 
+// @ts-ignore
 export const RevealOnScroll = ({children}) => {
 
     const ref = useRef(null);
@@ -7,6 +8,7 @@ export const RevealOnScroll = ({children}) => {
     useEffect(() => {
         const observer = new IntersectionObserver(([entry]) => {
             if(entry.isIntersecting){
+                // @ts-ignore
                 ref.current.classList.add("visible")
             }
         },{threshold:0.2, rootMargin: "0px 0px -50px 0px"});

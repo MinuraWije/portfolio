@@ -2,7 +2,7 @@ import {RevealOnScroll} from "../RevealOnScroll.tsx";
 
 export const About = () => {
 
-    const frontendSkills = ["React","Typescript","TailwindCSS"];
+    const frontendSkills = ["React","Typescript","Javascript","TailwindCSS"];
     const backendSkills = ["Java","Python","MySQL","Prisma"];
 
     return (
